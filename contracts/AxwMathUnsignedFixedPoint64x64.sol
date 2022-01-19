@@ -2,7 +2,7 @@ pragma solidity ^0.8.0;
 // ----------------------------------------------------------------------------
 // SPDX-License-Identifier: MIT
 // A unsigned fixed point 64.64 math library that calculates
-//   - log base 1.00001
+//   - log base 1.0001
 //   - log base 10
 //   - log base 2
 //   - log base 0.5
@@ -97,7 +97,7 @@ library AxwMathUnsignedFixedPoint64x64 {
 
         return num_64_64x64 - log_base_2(x_64x64 << 64);
     }
-    
+
     /// @notice aka. log base 2 rounding down
     /// @dev x = mantissa + pow(2, exponent); x = integral + fractional
     /// @param x_64x64 the q64.64 unsigned fixed point number
