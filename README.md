@@ -6,7 +6,7 @@ Math functions by this library are the following
    * log base 0.5
    * normalized exponent
    * power base 2
-   * power
+   * power base arbitrary 
    * square root
    
 Developed for myself to integrate different Defi protocols so use at your own risk. 
